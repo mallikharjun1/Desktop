@@ -1,0 +1,13 @@
+
+
+vmadmin
+Hemanth@123456
+
+tenant id 
+actv directory
+dc66e31a-eb7c-4854-a534-aab9cdda0ee1
+pat
+bieiu63bfwouspgs46pr5nb45gmxaommmdnjgkn6cvg7skdr4s5q
+
+Service principle Value- tpM7Q~MMJSoE6tk7h4PhJfqmM~FWx2I73rG6e
+Sevice Principle Key-----f0729db4-f920-4d37-a8dc-706ee9c49e4d
