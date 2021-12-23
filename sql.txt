@@ -1,0 +1,59 @@
+								sql server
+username- Malli
+pswd - 8bit@sql
+
+user- sqlAdmin
+pswd - 8bit@sql
+sonar- pat-gy3d3ax54dfojdkkscqzdj5vxsi3jn36m3vbvqe3duqo67y36c2a
+sonar token- 15d6edda9adc7f42646d7b8fd527cd0f4bf1485f
+vm 
+user- vmadmin
+ - iis-vm
+pswd - 8bit@virtualmisn
+user- soulvm
+psw - 8mallikharjuna@
+olasql
+uaer- olaadmin
+pswd - olasql@123
+
+PowersheLl scripts
+delete sql server firewall rule -Remove-AzSqlServerFirewallRule -FirewallRuleName "Rule01" -ResourceGroupName "ResourceGroup01" -ServerName "Server01"
+add sql server firewall rule -New-AzSqlServerFirewallRule -ResourceGroupName "ResourceGroup01" -ServerName "Server01" -FirewallRuleName "Rule01" -StartIpAddress "192.168.0.198" -EndIpAddress "192.168.0.199"
+
+gmail- malli.arjun.dev96@gmail.com
+pswd - Malli@143
+
+
+
+Possess overall 3+ years of IT experience,with 1.5year Manual Test Engineer 1+ years of 
+Microsoft Azure Cloud Engineer experience in IAAS, PAAS services. Proven ability to 
+successfully analyze an organization cloud migrations, managing both classic & ARM portal, 
+effectively use Power Shell to manage Azure services, troubleshooting access related issues, 
+Azure services involving in software design and implementation of various Client Server 
+applications.
+
+
+
+
+
+
+AAD
+malli@balusuri116gmail.onmicrosoft.com
+Yosu1518
+sai@balusuri116gmail.onmicrosoft.com
+Yufo2399
+dummy code repo -https://github.com/MicrosoftDocs/pipelines-dotnet-core
+
+Root Certificate: 
+ $cert = New-SelfSignedCertificate -Type Custom -KeySpec Signature `
+-Subject "CN=NameofyourRootCert" -KeyExportPolicy Exportable `
+-HashAlgorithm sha256 -KeyLength 2048 `
+-CertStoreLocation "Cert:\CurrentUser\My" -KeyUsageProperty Sign -KeyUsage CertSign
+
+Client Certificate:
+
+New-SelfSignedCertificate -Type Custom -DnsName P2SChildCert -KeySpec Signature `
+-Subject "CN=NameOfYourChildCert" -KeyExportPolicy Exportable `
+-HashAlgorithm sha256 -KeyLength 2048 `
+-CertStoreLocation "Cert:\CurrentUser\My" `
+-Signer $cert -TextExtension @("2.5.29.37={text}1.3.6.1.5.5.7.3.2")

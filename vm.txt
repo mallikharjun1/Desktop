@@ -1,5 +1,6 @@
-
-
+app registration-s8ulwebaap-
+serviceprincipal key-ekp7Q~LrMu3OKHrO9BDH6sOUkc_zXkpkuZWT1
+tenent id -dc66e31a-eb7c-4854-a534-aab9cdda0ee1
 vmadmin
 Hemanth@123456
 
@@ -11,3 +12,25 @@ bieiu63bfwouspgs46pr5nb45gmxaommmdnjgkn6cvg7skdr4s5q
 
 Service principle Value- tpM7Q~MMJSoE6tk7h4PhJfqmM~FWx2I73rG6e
 Sevice Principle Key-----f0729db4-f920-4d37-a8dc-706ee9c49e4d
+S8ul-Vm
+vM-user-name-Malli-
+vm-pswd-Bmr@19081996
+
+uli6zfsm2swmk7nj3rxvx3ofkvkr2lovyn4gorlfjd3rb6vllm4a  (hemanth)
+
+azure app service diploy--
+
+- task: AzureRmWebAppDeployment@4
+  displayName: 'Deploy Azure App Service'
+  inputs:
+    azureSubscription: '$(Parameters.ConnectedServiceName)'
+    appType: '$(Parameters.WebAppKind)'
+    WebAppName: '$(Parameters.WebAppName)'
+    packageForLinux: '$(System.DefaultWorkingDirectory)/_8BiT-ASP.NET-CI (1)/drop/WebApplication1.zip'
+8biT 
+Pat- jlkft7exxr3bm5zyzkortq7mkaml7352r6jvh727fmr5ziw7xenq
+sub-
+balusuri116@gmail.com
+BALASURI@116
+vm uesr-Malli
+pswd-Mallirao@143
